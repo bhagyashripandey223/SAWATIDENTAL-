@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sawati Dental Clinic</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 2rem;
+    }
+    .services, .contact, .appointment {
+      background-color: white;
+      border-radius: 10px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      color: #004080;
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 2rem;
+    }
+    form input, form textarea, form button {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 1rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background-color: #004080;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SAWATI DENTAL</h1>
+    <p>Your smile is our priority</p>
+  </header>
+
+  <section class="about">
+    <h2>About Us</h2>
+    <p>Welcome to Sawati Dental, led by Dr. Akancha Anand (RCT Specialist, BDS MDS, 4 years of experience). We are committed to providing quality dental care with a gentle touch.</p>
+  </section>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Root Canal Treatment (RCT)</li>
+      <li>Teeth Cleaning</li>
+      <li>Tooth Extraction</li>
+      <li>Dental Implants</li>
+      <li>Oral Infection & Surgery Treatment</li>
+    </ul>
+  </section>
+
+  <section class="appointment">
+    <h2>Book an Appointment</h2>
+    <form action="https://formspree.io/f/xnqelzrk" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+      <input type="date" name="date" required />
+      <textarea name="message" rows="4" placeholder="Your Concern"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Sitakund, Ballia, Uttar Pradesh</p>
+    <p>📞 8539844271</p>
+    <p>📧 info@sawatidental.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sawati Dental. All rights reserved.</p>
+  </footer>
+</body>
+</html>
